@@ -3,10 +3,10 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "arif.show.maps"
+        id        = "com.tes.phonegap"
         version   = "1.0.0">
 
-    <name>Fire Maps Live</name>
+    <name>phonegap-plugtest</name>
 
     <description>
    
@@ -142,6 +142,10 @@
         <preference name="DisallowOverscroll" value="true" />
 
         <plugin name="cordova-plugin-statusbar" spec="~1.0.1" />
+        <plugin name="cordova-plugin-armsoft-googlemaps" source="npm">
+    <param name="API_KEY_FOR_ANDROID" value=" AIzaSyAFBHukw3makDc_UuvtAVuk-4MsN7C8z1M " />
+    <param name="API_KEY_FOR_IOS" value="YOUR_API_KEY_FOR_IOS" />
+</plugin>
         <plugin name="cordova-plugin-x-socialsharing" spec="https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin" />
         <plugin name="cordova-plugin-media" spec="~1.0.1" />
         <plugin name="cordova-plugin-inappbrowser" spec="~1.1.1" />
