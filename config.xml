@@ -142,7 +142,7 @@
         <preference name="DisallowOverscroll" value="true" />
 
         <plugin name="cordova-plugin-statusbar" spec="~1.0.1" />
-        <plugin name="cordova-plugin-googlemaps" spec="1.2.5 /">
+        <plugin name="cordova-plugin-googlemaps" />
     <variable name="API_KEY_FOR_ANDROID" value="AIzaSyAFBHukw3makDc_UuvtAVuk-4MsN7C8z1M" />
     <variable name="API_KEY_FOR_IOS" value="AIzaSyAFBHukw3makDc_UuvtAVuk-4MsN7C8z1M" />
     <variable name="LOCATION_WHEN_IN_USE_DESCRIPTION" value="My custom when in use message" />
