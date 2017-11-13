@@ -52,7 +52,7 @@
         <preference name="AndroidPersistentFileLocation" value="Compatibility" />
         <preference name="DisallowOverscroll" value="true" />
         
-        <plugin name="cordova-plugin-googlemaps" spec="https://github.com/mapsplugin/cordova-plugin-googlemaps#multiple_maps">
+        <plugin name="cordova-plugin-googlemaps" source="npm" />
         <variable name="API_KEY_FOR_ANDROID" value="AIzaSyAFBHukw3makDc_UuvtAVuk-4MsN7C8z1M" />
         <variable name="API_KEY_FOR_IOS" value="(your api key)" />
         <variable name="LOCATION_WHEN_IN_USE_DESCRIPTION" value="Show your location on the map" />
