@@ -10,44 +10,6 @@
     
     
     
-<!-- Define app icon for each platform. -->
-    <icon src="icon.png" />
-    <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
-    <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:qualifier="mdpi" />
-    <icon src="res/icon/android/icon-72-hdpi.png"   gap:platform="android"    gap:qualifier="hdpi" />
-    <icon src="res/icon/android/icon-96-xhdpi.png"  gap:platform="android"    gap:qualifier="xhdpi" />
-    <icon src="res/icon/blackberry/icon-80.png"     gap:platform="blackberry" />
-    <icon src="res/icon/blackberry/icon-80.png"     gap:platform="blackberry" gap:state="hover"/>
-    <icon src="res/icon/ios/icon-57.png"            gap:platform="ios"        width="57" height="57" />
-    <icon src="res/icon/ios/icon-72.png"            gap:platform="ios"        width="72" height="72" />
-    <icon src="res/icon/ios/icon-57-2x.png"         gap:platform="ios"        width="114" height="114" />
-    <icon src="res/icon/ios/icon-72-2x.png"         gap:platform="ios"        width="144" height="144" />
-    <icon src="res/icon/webos/icon-64.png"          gap:platform="webos" />
-    <icon src="res/icon/windows-phone/icon-48.png"  gap:platform="winphone" />
-    <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
-
-    <!-- Define app splash screen for each platform. -->
-    <splash src="splash.png" />
-
-<splash gap:platform="ios" height="480" width="320" src="res/screens/ios/screen-iphone-portrait.png" />
-<splash gap:platform="ios" height="960" width="640" src="res/screens/ios/screen-iphone-portrait-2x.png" />
-<splash gap:platform="ios" height="1024" width="768" src="res/screens/ios/screen-ipad-portrait.png" />
-<splash gap:platform="ios" height="2048" width="1536" src="res/screens/ios/screen-ipad-portrait-2x.png" />
-<splash gap:platform="ios" height="768" width="1024" src="res/screens/ios/screen-ipad-landscape.png" />
-<splash gap:platform="ios" height="1536" width="2048" src="res/screens/ios/screen-ipad-landscape-2x.png" />
-<splash gap:platform="ios" height="1136" width="640" src="res/screens/ios/screen-iphone-568h-2x.png" />
-<splash gap:platform="ios" height="1334" width="750" src="res/screens/ios/screen-iphone-portrait-667h.png" />
-<splash gap:platform="ios" height="2208" width="1242" src="res/screens/ios/screen-iphone-portrait-736h.png" />
-<splash gap:platform="ios" height="1242" width="2208" src="res/screens/ios/screen-iphone-landscape-736h.png" />
-
-<splash gap:platform="android" gap:qualifier="land-hdpi" src="res/screens/android/screen-hdpi-landscape.png" />
-<splash gap:platform="android" gap:qualifier="land-ldpi" src="res/screens/android/screen-ldpi-landscape.png" />
-<splash gap:platform="android" gap:qualifier="land-mdpi" src="res/screens/android/screen-mdpi-landscape.png" />
-<splash gap:platform="android" gap:qualifier="land-xhdpi" src="res/screens/android/screen-xhdpi-landscape.png" />
-<splash gap:platform="android" gap:qualifier="port-hdpi" src="res/screens/android/screen-hdpi-portrait.png" />
-<splash gap:platform="android" gap:qualifier="port-ldpi" src="res/screens/android/screen-ldpi-portrait.png" />
-<splash gap:platform="android" gap:qualifier="port-mdpi" src="res/screens/android/screen-mdpi-portrait.png" />
-<splash gap:platform="android" gap:qualifier="port-xhdpi" src="res/screens/android/screen-xhdpi-portrait.png" />
 
 
  
